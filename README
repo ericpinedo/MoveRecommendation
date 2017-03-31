@@ -1,0 +1,32 @@
+------------------------------------------------[ Movie Recommendation README]-
+Filename: README
+Author: Eric Pinedo
+Date: March 10, 2017
+
+-------------------------------------------------------------[  DESCRIPTION  ]-
+
+The purpose of this project is to explore Data Science and Machine learning 
+concepts and apply it to a movie recommendation system based on data.
+The data set I used is from Movielens for a research initiative to exlpore some 
+of the relationshipts between movie recommendation. My particular dataset 
+is focused from movie's pre-2000's
+
+
+-----------------------------------------------------------[ future updates]-
+
+
+Is it possible to improve on these results? Perhaps a different method
+or min_periods value on the correlation computation would produce more 
+interesting results.
+
+Perhaps movies similar to ones the user rated poorly should actually 
+be penalized, instead of just scaled down?
+
+There are also probably some outliers in the user rating data set - 
+some users may have rated a huge amount of movies and have a disporportionate 
+effect on the results. Next update should delete some outliers
+
+Currently the system results are qualitative here, so next update 
+should apply train/test and measure our ability to predict user 
+ratings for movies they've already watched. Whether that's actually 
+a measure of a "good" recommendation is debatable, though!
